@@ -1,0 +1,4 @@
+NOTE:
+
+This file is here so the "web" directory is not empty.  If empty, some zip programs omits it when unzipping.  This file is here so this directory is not empty.  You can delete this file AFTER you have installed your  system.
+
