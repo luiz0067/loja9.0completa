@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<carrossel>
+ <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/1.png</imagem>
+    <url>http://hostmp.net</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Celular Samsung -<font color="#AA0303"><b> a partir de R$ 255,00</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+
+  <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/2.png</imagem>
+    <url>http://hostmp.net</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Celular Vivo -<font color="#AA0303"><b>a partir de R$160</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+
+ <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/3.png</imagem>
+    <url>http://hostmp.net</url>
+    <chamada>
+  <![CDATA[<font color="#AA0303">Tim Desbloquado -<font color="#AA0303"><b> a partir de 10x de R$ 11,00</b></font></font>]]>  
+    </chamada>
+  </produto>
+
+
+
+ <produto>
+    <imagem>hhttp://lojaswebshop.com/novademo/modelo1/imagens/4.png</imagem>
+    <url>http://hostmp.net</url>
+    <chamada>
+       <![CDATA[<font color="#AA0303">Lg Android -<font color="#AA0303"><b> a partir de 10x de R$ 83,00.</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+
+
+
+ <produto> 
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/5.png</imagem>
+    <url>http://hostmp.net</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Dual Chip -<font color="#AA0303"><b> a partir de 10x de R$ 13,00.</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+
+  <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/6.png</imagem>
+    <url>http://hostmp.net</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Celular Motorola -<font color="#AA0303"><b>a partir de 6x de R$ 51,00</b></font></font>]]> 
+    </chamada>
+  </produto> 
+
+
+ <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/7.png</imagem>
+    <url>http://hostmp.net</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Smartphone  -<font color="#AA0303"><b> a partir de 8x de R$ 51,00.</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+  
+ <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/8.png</imagem>
+    <url>http://hostmp.net</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Nokia C5 -<font color="#AA0303"><b></b></font></font>]]> 
+    </chamada>
+  </produto> 
+</carrossel>
