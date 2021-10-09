@@ -1,0 +1,312 @@
+* {margin: 0;	padding: 0;}
+body {
+	font-family: Arial, Trebuchet MS, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	height: 100%;
+}
+
+input, select {
+	font-family: Arial, Trebuchet MS, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+input {
+margin-top:5px;
+	padding: 2px 10px;
+}
+p {	line-height: 1.3;	margin-bottom: 15px;}
+a {	font-weight: normal;	text-decoration: none;}
+h2 {	font-size: 1.4em;	margin: 0 0 8px 0;}
+h3 {	font-size: 1.1em;	margin-bottom: 6px;}
+h4 {	font-size: 1.1em;	margin-bottom: 4px;}
+img, img a {	border: 0;}
+ul, ol {	margin: 0 0 10px 30px;}
+li {	margin: 0;	margin-bottom: 2px;	padding: 0;}
+blockquote { border:1px dashed #ccc; margin:2px 2px 2px 0; padding:10px 10px 10px 5px;}
+select option {	padding: 0 10px;}
+hr {	margin: 10px 0;	padding: 0;	height: 1px;	border:0;}
+.Clear { clear:both;}
+
+table * { vertical-align:top}
+/** AJAX loading box - Start **/
+#AjaxLoading {	display: none;	text-align: center;	background: #FCF5AA;	width: 180px;	z-index: 10000000000;	padding: 5px 10px;}
+#AjaxLoading img {	vertical-align: bottom;	margin-right: 5px;}
+
+/* Top Navigational Menu */
+#TopMenu {
+    color: #FFFFFF;
+	font-weight:normal;
+    margin: 45px 0 0 0px;
+    position: middle;
+	align: left;
+}
+
+#TopMenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	color:#FFFFFF;
+}
+
+#TopMenu li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	color:#FFFFFF;
+}
+
+#TopMenu li.First a {
+	border-left: 0;
+	color:#FFFFFF;
+}
+
+#TopMenu a {
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#TopMenu li a, #TopMenu li div {
+	display: block;
+	text-decoration: none;
+	font-size: 11px;
+	padding: 0 10px 0 10px;
+	margin: 8px 0 0 0;
+	color:#FFFFFF;
+}
+
+#TopMenu li div a {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	font-size: 11px;
+	color:#FFFFFF;
+}
+
+#TopMenu li a:hover {
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+/* Pages Menu */
+#Menu {
+	clear: both;
+	margin: 0 0 12px;
+	padding: 0 0 0 15px;
+	height:20px;
+
+}
+
+#Menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#Menu li {
+	float: left;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+#Menu li.First a {
+	background-image: none;
+	}
+
+#Menu li a {
+    display: block;
+	float: left;
+	font-size: 11px;
+	font-family: Verdana, Arial, Trebuchet MS, Helvetica, sans-serif;
+	font-weight :bold;
+	text-align: center;
+	padding: 9px 12px 0 15px;
+	height: 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+		
+}
+
+#Menu li a:hover {
+	text-decoration: none !important;
+}
+
+#Menu li ul {
+	width: auto;
+	position: absolute;
+	clear: left;
+	top: 30px;
+	left: 5px;
+	display: none;
+	text-align: left;
+	font-size: 1.0em;
+	background: transparent;
+	z-index: 1;
+}
+
+#Menu li ul li {
+	clear: both;
+	text-align: left;
+	background: transparent;
+		
+}
+
+#Menu li ul li a {
+	padding: 5px 10px;
+	font-size: 1.0em;
+	text-align: left;
+	margin: 0;
+	width: 120px;
+	height: auto;
+		
+}
+
+#Menu li ul li a:hover {
+	text-decoration: none;
+	
+}
+
+
+#Menu li ul li a, #Menu li.over li a {
+	text-decoration: none !important;
+	
+}
+
+#Menu li:hover ul, #Menu li.over ul {
+	display: block;
+	
+}
+
+/* Top Search Form */
+#SearchForm {
+    float: left;
+    margin-top: 0px;
+	margin-left: 8px;
+}
+
+#SearchForm label {
+	font-weight: bold;
+}
+
+#SearchForm input.Textbox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #ffffff;
+    font-size: 11px;
+    margin-left: 5px;
+    padding: 3px;
+    width: 279px;
+	}
+
+#SearchForm .Button {
+    height: 31px;
+    padding: 0;
+	margin-top: 0px;
+    vertical-align: middle;
+    width: 32px;
+	
+}
+
+#SearchForm p {
+	text-align: right;
+	margin: 0 0 0 45px;
+	font-size: 11px; 
+}
+
+#SearchForm a {
+	text-decoration: none;
+}
+
+/* Top Seller Block Specific */
+.Left .TopSellers li .TopSellerNumber, .Right .TopSellers li .TopSellerNumber { /* Contains the number of the item */
+	float: left;
+	width: 20px;
+	font-size: 11px; 
+	padding: 6px 0 3px 6px;
+}
+
+.Left .TopSellers .ProductDetails, .Right .TopSellers .ProductDetails { /* Contains the details of the item */
+	margin-left: 24px;
+	width: 110px;
+	padding: 3px 0 3px 0;
+}
+
+.Left .TopSellers li.TopSeller1, .Right .TopSellers li.TopSeller1 { /* No1 seller box */
+	clear: both;
+	float: left;
+	width: 128px;
+	margin: 10px 0 5px 0;
+	padding: 5px;
+	overflow: visible;
+	display: inline;
+}
+
+.Left .TopSellers li.TopSeller1 img, .Right .TopSellers li.TopSeller1 img {
+	text-align: center;
+	overflow: hidden;
+	max-width:130px;
+}
+
+
+.Left .TopSellers li.TopSeller1 .TopSellerNumber, .Right .TopSellers li.TopSeller1 .TopSellerNumber {
+	width: 44px;
+	height: 34px;
+	font-size: 11px; 
+	padding: 7px 0 6px 0;
+	margin: -20px 0 0 0;
+	text-align: center;
+	display: Block;
+}
+
+.Left .TopSellers li.TopSeller1 .ProductDetails, .Right .TopSellers li.TopSeller1 .ProductDetails {
+	margin-left: 0;
+}
+
+.Left .TopSellers li.TopSeller1 .ProductImage, .Right .TopSellers li.TopSeller1 .ProductImage {
+	width: 130px;
+	display: inline;
+	text-align: center;
+	overflow: hidden;
+}
+
+.Content .TopSellers li .TopSellerNumber {
+	display: none;
+}
+
+.Content .TopSellers li .TopSellerNumber {
+	display: none;
+}
+
+/* MINHA CONTA */
+
+.AccountOrderStatusList { margin:0; padding:0}
+.AccountOrderStatusList li { border:2px solid #ededed; font-size:13px; color:#333; padding:20px;}
+.AccountOrderStatusList li ul li { border:0; padding:6px;}
+
+.StatusPedido { font-size:12px;}
+.StatusPedido strong { font-style:normal; color:#a30e0e} 
+
+.YourAccount li { font-size:12px; color:#333; list-style:none}
+.YourAccount a { color:#005aab; text-decoration:none; font-size:14px; font-weight:bold;}
+.IcoAcc { background-position:left; background-repeat:no-repeat; padding:10px 0 10px 60px}
+
+.IcoAccMensagens { background-image:url(../img/ico_acc_msg.gif)}
+.IcoAccPedidosStatus { background-image:url(../img/ico_acc_pedidos_status.gif)}
+.IcoAccPedidos { background-image:url(../img/ico_acc_pedidos.gif)}
+.IcoAccEnderecos { background-image:url(../img/ico_acc_enderecos.gif)}
+.IcoAccFavoritos { background-image:url(../img/ico_acc_favoritos.gif)}
+.IcoAccDados { background-image:url(../img/ico_acc_dados.gif)}
+
+.AccountMenu li { padding:6px 0 6px 3px; border-bottom:1px dotted #ccc}
+.AccountMenu li:hover { background-color:#ededed;}
+
+
+.AccountMessageList { margin:0; padding:0;}
+.AccountMessageList li { padding:20px; border:1px dashed #ccc; list-style:none;color:#333; font-size:12px;}
+.AccountMessageList h3 { font-size:14px; color:#666 }
+
+.BillingDetails {	float: left;	width: 48%;	margin-right: 10px;	margin-bottom: 15px;}
+.ShippingDetails {	float: left;	width: 48%;	margin-bottom: 15px;}
+
+.ShippingAddressList li { list-style:none}
+.ShippingAddressList a { text-decoration:none; color:#333 }
