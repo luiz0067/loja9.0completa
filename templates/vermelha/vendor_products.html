@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 %%Panel.HTMLHead%%
 <body>
-<div id="Container">
+	<div id="Container">
 	%%Panel.Header%%
 	<div id="Wrapper">
 		%%Panel.WrapperBanner%%
@@ -10,17 +10,11 @@
 			%%Panel.SideCategoryList%%
 			%%Panel.SideShopByBrand%%
 			%%Panel.SideNewsletterBox%%
+			%%Panel.SideLiveChatServices%%
 		</div>
 		<div class="Content Wide WideWithLeft" id="LayoutColumn2">
-			<h2>%%LNG_ForbiddenAccessPage%%</h2>
-			<div class="BlockContent">
-				<p class="ErrorMessage">
-					%%LNG_NoPermissionToAccessThisPage%%
-				</p>
-				<p>%%GLOBAL_Contact%%</p>
-				<a href="%%GLOBAL_ShopPath%%/">%%LNG_ReturnToHomepage%%</a>
-			</div>
-			%%Banner.BottomBanner%%
+			%%Panel.Breadcrumb%%
+			%%Panel.VendorProducts%%
 		</div>
 		<br class="Clear" />
 	</div>
